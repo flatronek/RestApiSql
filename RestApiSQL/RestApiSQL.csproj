@@ -208,6 +208,15 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201604201532524_InitialCreate.cs" />
+    <Compile Include="Migrations\201604201532524_InitialCreate.Designer.cs">
+      <DependentUpon>201604201532524_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201604201543444_AddBookPageCount.cs" />
+    <Compile Include="Migrations\201604201543444_AddBookPageCount.Designer.cs">
+      <DependentUpon>201604201543444_AddBookPageCount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Author.cs" />
     <Compile Include="Models\Book.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -267,7 +276,14 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201604201532524_InitialCreate.resx">
+      <DependentUpon>201604201532524_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201604201543444_AddBookPageCount.resx">
+      <DependentUpon>201604201543444_AddBookPageCount.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />

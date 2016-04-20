@@ -13,8 +13,8 @@ namespace RestApiSQL.DAL
         {
             var books = new List<Book>
             {
-                new Book() { Id = 1, ISBN = "asd", Title = "Book1" },
-                new Book() { Id = 2, ISBN = "dsa", Title = "Book2" }
+                new Book() { Id = 1, ISBN = "asd", Title = "Book1", PageCount = 10 },
+                new Book() { Id = 2, ISBN = "dsa", Title = "Book2", PageCount = 20 }
             };
             context.Books.AddRange(books);
             context.SaveChanges();

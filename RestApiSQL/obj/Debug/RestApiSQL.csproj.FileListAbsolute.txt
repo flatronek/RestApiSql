@@ -65,3 +65,6 @@ C:\Projekty\TIO\RestApiSQL\RestApiSQL\bin\Antlr3.Runtime.pdb
 C:\Projekty\TIO\RestApiSQL\RestApiSQL\obj\Debug\RestApiSQL.csprojResolveAssemblyReference.cache
 C:\Projekty\TIO\RestApiSQL\RestApiSQL\obj\Debug\RestApiSQL.dll
 C:\Projekty\TIO\RestApiSQL\RestApiSQL\obj\Debug\RestApiSQL.pdb
+C:\Projekty\TIO\RestApiSQL\RestApiSQL\obj\Debug\RestApiSQL.Migrations.InitialCreate.resources
+C:\Projekty\TIO\RestApiSQL\RestApiSQL\obj\Debug\RestApiSQL.csproj.GenerateResource.Cache
+C:\Projekty\TIO\RestApiSQL\RestApiSQL\obj\Debug\RestApiSQL.Migrations.AddBookPageCount.resources
